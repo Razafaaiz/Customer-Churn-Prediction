@@ -1,133 +1,75 @@
-🛍️ Customer Churn Prediction (Bank Dataset)
-📌 Project Overview
+🧠 Customer Churn Prediction with Deep Learning
 
-This project predicts customer churn (whether a customer will leave the bank) using Deep Learning (Keras + TensorFlow) and provides an interactive dashboard built in Streamlit.
+A machine learning web app built with TensorFlow, Keras, and Streamlit to predict customer churn based on demographic and account information.
 
-It demonstrates end-to-end data science workflow:
+🚀 Features
 
-Data preprocessing (encoding, scaling, cleaning).
+✅ Trained Deep Learning Model (model.h5)
 
-Model training & evaluation.
+✅ Encoders for categorical features (.pkl files)
 
-Deployment as a web app with two tabs:
+✅ User-friendly Streamlit Web App
 
-Prediction Tab → Predict churn probability for a single customer.
+✅ Deployed with GitHub + Streamlit Cloud
 
-Insights Tab → Interactive charts to explore churn patterns across demographics.
+📂 Project Structure
+📦 churn-prediction  
+ ┣ 📜 app.py                 # Streamlit app  
+ ┣ 📜 requirements.txt       # Python dependencies  
+ ┣ 📜 runtime.txt            # Python runtime version  
+ ┣ 📜 model.h5               # Trained model (via Git LFS)  
+ ┣ 📜 label_encoder_gender.pkl  
+ ┣ 📜 onehot_encoder_geo.pkl  
+ ┣ 📜 scaler.pkl  
+ ┣ 📜 Churn_Modelling.csv    # Dataset  
+ ┣ 📜 README.md              # Documentation  
 
-🎯 Objective
+⚙️ Installation
 
-Help banks identify customers most likely to leave.
+Clone the repository:
 
-Provide business insights to reduce churn.
+git clone https://github.com/YOUR_USERNAME/churn-prediction.git
+cd churn-prediction
 
-Showcase skills in ML, data preprocessing, visualization, and deployment.
 
-⚙️ Tech Stack
+Install dependencies:
 
-Python (Pandas, NumPy, Scikit-learn, TensorFlow/Keras, Pickle)
+pip install -r requirements.txt
 
-Streamlit (for UI & deployment)
 
-Matplotlib/Seaborn/Plotly (visualization)
+Run the Streamlit app:
 
-📊 Dataset
+streamlit run app.py
 
-Source: Kaggle - Bank Customer Churn Dataset.
+🌐 Deployment
 
-Features:
+Easily deployable on Streamlit Cloud:
 
-Demographics → Age, Gender, Geography
+Push repo to GitHub.
 
-Banking details → CreditScore, Balance, Products, Tenure, Salary
+Go to Streamlit Cloud
+ → Create new app → Select repo.
 
-Behavior → ActiveMember, HasCrCard
+Done 🎉
 
-Target: Exited (1 = churn, 0 = stay)
+📸 Demo
 
-🔑 Process
-1. Data Preprocessing
+👉 Add your app screenshot here:
 
-Removed duplicates & handled null values.
+![App Screenshot](screenshot.png)
 
-Label Encoding → Gender
+🛠️ Tech Stack
 
-OneHot Encoding → Geography
+Python 🐍
 
-Feature Scaling → StandardScaler
+TensorFlow / Keras 🤖
 
-2. Model Development
+Streamlit 🎨
 
-Built a Neural Network using Keras.
+GitHub + Git LFS 📂
 
-Tuned layers, neurons, and activation functions.
+👨‍💻 Author
 
-Achieved ~85% accuracy on test data.
-
-3. Streamlit App
-
-Tab 1: Prediction
-
-Input customer details.
-
-Model outputs churn probability.
-
-Example → “Customer churn probability: 72% (likely to churn).”
-
-Tab 2: Insights
-
-Filter data by age, gender, geography.
-
-Charts show churn trends:
-
-Churn higher among German customers.
-
-Females churn more than males.
-
-Middle-aged customers (40–60 yrs) are most at risk.
-
-Customers with 1 product churn more than those with 2.
-
-Inactive members churn more often.
-
-🌍 Real-World Impact
-
-Proactive Retention → Bank can target at-risk customers with offers.
-
-Business Strategy → Focus campaigns on high-risk groups.
-
-Customer Insights → Understand why people leave & improve services.
-
-Example:
-
-If model flags a customer with 80% churn risk, the bank can assign a retention agent.
-
-If insights show inactive customers churn 2x more, create campaigns to increase engagement.
-
-📸 Screenshots
-
-(Add app screenshots → Prediction Tab & Insights Tab charts)
-
-📂 Repository Contents
-
-app.py → Streamlit App
-
-model.h5 → Trained Model
-
-scaler.pkl, label_encoder.pkl, onehot_encoder.pkl → Preprocessing objects
-
-notebooks/ → Data cleaning & model training
-
-dashboard_screenshots/ → Power BI/Streamlit visuals
-
-🚀 Portfolio Value
-
-This project shows full data science + deployment skills:
-
-SQL/Data Prep
-
-Machine Learning/Deep Learning
-
-Visualization (EDA + Streamlit)
-
-Deployment-ready app
+Mohammed Faiz Raza Mulla
+📧 Email: razafaiz003@gmail.com
+🔗 LinkedIn | GitHub
