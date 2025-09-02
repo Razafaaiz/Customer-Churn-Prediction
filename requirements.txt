@@ -3,7 +3,7 @@ tensorflow
 scikit-learn
 pandas
 numpy
-tensorflow==2.15.0
+tensorflow-cpu==2.12.0
 tensorboard
 matplotlib
 tensorflow-cpu
