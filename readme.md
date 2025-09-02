@@ -1,4 +1,4 @@
-🧠 Customer Churn Prediction with Deep Learning
+#🧠 Customer Churn Prediction with Deep Learning
 
 A machine learning web app built with TensorFlow, Keras, and Streamlit to predict customer churn based on demographic and account information.
 
