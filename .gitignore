@@ -1,0 +1,12 @@
+# Ignore model files
+*.h5
+*.pkl
+*.joblib
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+.env/
