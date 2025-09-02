@@ -56,7 +56,8 @@ Go to Streamlit Cloud → Create new app → Select repo
 Done 🎉
 
 📸 Demo
-👉 Add your app screenshot here:
+👉 Add your app screenshot here:<img width="1360" height="628" alt="Screenshot 2025-09-03 031448" src="https://github.com/user-attachments/assets/c7f7d91f-dcac-49ff-8952-30a1655045dd" />
+
 
 <p align="center"> <img src="screenshot.png" alt="App Screenshot" width="800"/> </p>
 🛠️ Tech Stack
