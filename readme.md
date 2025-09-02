@@ -1,75 +1,74 @@
-#🧠 Customer Churn Prediction with Deep Learning
+<h1 align="center">🧠 Customer Churn Prediction with Deep Learning</h1>
 
-A machine learning web app built with TensorFlow, Keras, and Streamlit to predict customer churn based on demographic and account information.
+<p align="center">
+  A machine learning web app built with <b>TensorFlow</b>, <b>Keras</b>, and <b>Streamlit</b>  
+  to predict customer churn based on demographic and account information.
+</p>
 
-🚀 Features
+---
 
-✅ Trained Deep Learning Model (model.h5)
+## 🚀 Features
+- ✅ Trained Deep Learning Model (`model.h5`)  
+- ✅ Encoders for categorical features (`.pkl` files)  
+- ✅ User-friendly Streamlit Web App  
+- ✅ Deployed with GitHub + Streamlit Cloud  
 
-✅ Encoders for categorical features (.pkl files)
+---
 
-✅ User-friendly Streamlit Web App
+## 📂 Project Structure
+📦 churn-prediction
+┣ 📜 app.py # Streamlit app
+┣ 📜 requirements.txt # Python dependencies
+┣ 📜 runtime.txt # Python runtime version
+┣ 📜 model.h5 # Trained model (via Git LFS)
+┣ 📜 label_encoder_gender.pkl
+┣ 📜 onehot_encoder_geo.pkl
+┣ 📜 scaler.pkl
+┣ 📜 Churn_Modelling.csv # Dataset
+┣ 📜 README.md # Documentation
 
-✅ Deployed with GitHub + Streamlit Cloud
+yaml
+Copy code
 
-📂 Project Structure
-📦 churn-prediction  
- ┣ 📜 app.py                 # Streamlit app  
- ┣ 📜 requirements.txt       # Python dependencies  
- ┣ 📜 runtime.txt            # Python runtime version  
- ┣ 📜 model.h5               # Trained model (via Git LFS)  
- ┣ 📜 label_encoder_gender.pkl  
- ┣ 📜 onehot_encoder_geo.pkl  
- ┣ 📜 scaler.pkl  
- ┣ 📜 Churn_Modelling.csv    # Dataset  
- ┣ 📜 README.md              # Documentation  
+---
 
-⚙️ Installation
+## ⚙️ Installation
 
-Clone the repository:
-
+1️⃣ Clone the repository:  
+```bash
 git clone https://github.com/YOUR_USERNAME/churn-prediction.git
 cd churn-prediction
+2️⃣ Install dependencies:
 
-
-Install dependencies:
-
+bash
+Copy code
 pip install -r requirements.txt
+3️⃣ Run the Streamlit app:
 
-
-Run the Streamlit app:
-
+bash
+Copy code
 streamlit run app.py
+🌐 Deployment (Streamlit Cloud)
+Push repo to GitHub
 
-🌐 Deployment
-
-Easily deployable on Streamlit Cloud:
-
-Push repo to GitHub.
-
-Go to Streamlit Cloud
- → Create new app → Select repo.
+Go to Streamlit Cloud → Create new app → Select repo
 
 Done 🎉
 
 📸 Demo
-
 👉 Add your app screenshot here:
 
-![App Screenshot](screenshot.png)
-
+<p align="center"> <img src="screenshot.png" alt="App Screenshot" width="800"/> </p>
 🛠️ Tech Stack
+🐍 Python
 
-Python 🐍
+🤖 TensorFlow / Keras
 
-TensorFlow / Keras 🤖
+🎨 Streamlit
 
-Streamlit 🎨
-
-GitHub + Git LFS 📂
+📂 GitHub + Git LFS
 
 👨‍💻 Author
-
 Mohammed Faiz Raza Mulla
 📧 Email: razafaiz003@gmail.com
 🔗 LinkedIn | GitHub
