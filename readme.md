@@ -20,7 +20,7 @@
 
  <h1>⚙️ Installation</h1>
 🔹 1. Clone the repository
-git clone https://github.com//churn-prediction.git
+git clone https://github.com/Razafaaiz/churn-prediction.git
 cd churn-prediction
 
 🔹 2. Install dependencies
@@ -33,10 +33,11 @@ streamlit run app.py
 Push repo to GitHub
 Go to Streamlit Cloud
  → Create new app → Select repo
+ https://customer-churn-prediction-run.streamlit.app/
 Done 🎉
 
 <h1>🛠️ Tech Stack</h1>
-<p align="center"> 🐍 Python • 🤖 TensorFlow/Keras • 🎨 Streamlit • 📂 GitHub + Git LFS </p>
+ 🐍 Python • 🤖 TensorFlow/Keras • 🎨 Streamlit • 📂 GitHub + Git LFS
 
 <h1>👨‍💻 Author</h1>
 <p align="center"> <b>Mohammed Faiz Raza Mulla</b> </p> <p align="center"> 📧 <a href="mailto:razafaiz003@gmail.com">razafaiz003@gmail.com</a> • 🔗 <a href="https://www.linkedin.com/in/faiz-raza/">LinkedIn</a> • 💻 <a href="https://github.com/YOUR_USERNAME">GitHub</a> </p>
